@@ -1,0 +1,5 @@
+{
+  "bottoken": "DISCORD_BOT_TOKEN",
+  "statusText": "AutoClearChannel provider",
+  "outputJsonLog": false
+}
