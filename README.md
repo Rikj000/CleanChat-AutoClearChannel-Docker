@@ -1,5 +1,5 @@
 # CleanChat-AutoClearChannel-Docker
-***A self-hosted Discord bot, made compatible with [`dokku`](https://dokku.com/) & [`docker`](https://www.docker.com/)***
+***A self-hosted Discord bot, made compatible with [`dokku`](https://dokku.com/) & [`docker`](https://www.docker.com/) for easy deployment!***
 
 <p align="left">
     <a href="https://github.com/Rikj000/CleanChat-AutoClearChannel-Docker#readme">
