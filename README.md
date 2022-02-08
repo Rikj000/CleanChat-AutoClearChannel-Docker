@@ -83,7 +83,8 @@ There are multiple options for self-hosting:
 2. [Download](#downloads) the latest **CleanChat AutoClearChannel Docker**
 3. Unzip the `.zip` package on your computer.
 4. Copy & rename the `config.json.sample` file to `config.json`.
-5. Configure the newly renamed `config.json` file, make sure to replace your `DISCORD_BOT_TOKEN`. *(See: [Configuration](#configuration))*
+5. Configure the newly renamed `config.json` file, make sure to replace your `DISCORD_BOT_TOKEN`.   
+    *(See: [Configuration](#configuration))*
 6. Build the [`docker`](https://www.docker.com/) container, from command line in the root directory of CleanChat ACC Docker: 
     ```bash
     # Build & tag the CleanChat-ACC container
@@ -109,7 +110,8 @@ all with a simple `git push`!
 2. [Download](#downloads) the latest **CleanChat AutoClearChannel `Docker`**
 3. Unzip the `.zip` package on your computer.
 4. Copy & rename the `config.json.sample` file to `config.json`.
-5. Configure the newly renamed `config.json` file, make sure to replace your `DISCORD_BOT_TOKEN`. *(See: [Configuration](#configuration))*
+5. Configure the newly renamed `config.json` file, make sure to replace your `DISCORD_BOT_TOKEN`.   
+    *(See: [Configuration](#configuration))*
 6. Initialize & configure a [`git`](https://git-scm.com/) repository from command line in the root directory of CleanChat ACC Docker:
     ```bash
     # Initialize a git repository
@@ -136,7 +138,8 @@ git push clean-chat-acc master
 2. [Download](#downloads) the latest **CleanChat AutoClearChannel `Portable` or `Windows`**
 3. Unzip the `.zip` package on your computer.
 4. Copy & rename the `config.json.sample` file to `config.json`.
-5. Configure the newly renamed `config.json` file, make sure to replace your `DISCORD_BOT_TOKEN`. *(See: [Configuration](#configuration))*
+5. Configure the newly renamed `config.json` file, make sure to replace your `DISCORD_BOT_TOKEN`.   
+    *(See: [Configuration](#configuration))*
 6. Run the execute-able from command line in the root directory of CleanChat ACC:
     - **Portable**: `dotnet CleanChat-AutoClearChannel.dll`
     - **Windows 64 & 32**: `CleanChat-AutoClearChannel.exe`
@@ -223,17 +226,21 @@ then the bot will delete every message after they have each spent 5 seconds in c
 The delay is set in milliseconds or a "formatted time string"
 
 "Formatted time strings" looks like this:
-`2s` means "2 Seconds"
-`5m1s` means "5 Minutes and 1 Second"
-`10h6m10s` means "10 Hours, 6 Minutes and 10 seconds"
-`2s500ms` means "2 Seconds and 500 Milliseconds"
+| Format     | Meaning                              |
+| :--------: | ------------------------------------ |
+| `2s`       | "2 Seconds"                          |
+| `5m1s`     | "5 Minutes and 1 Second"             |
+| `10h6m10s` | "10 Hours, 6 Minutes and 10 seconds" |
+| `2s500ms`  | "2 Seconds and 500 Milliseconds"     |
 
 So basically a number, and then a letter representing a time unit.
-`ms` means "Milliseconds"
-`s` means "Seconds"
-`m` means "Minutes"
-`h` means "Hours"
-`d` means "Days"
+| Format | Meaning        |
+| :----: | -------------- |
+|  `ms`  | "Milliseconds" |
+|   `s`  | "Seconds"      |
+|   `m`  | "Minutes"      |
+|   `h`  | "Hours"        |
+|   `d`  | "Days"         |
 
 If you want to remove a autoclearchannel again, you must either set the deletion delay to 0 or use [`reset`](#reset).
 
