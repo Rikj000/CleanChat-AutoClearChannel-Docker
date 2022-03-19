@@ -103,7 +103,7 @@ all with a simple `git push`!
 
 **On your server:**
 1. Make sure you have [`dokku`](https://dokku.com/) & [`docker`](https://www.docker.com/) installed on your server.
-2. Create a new (empty) [`dokku`](https://dokku.com/) app using: `dokku app:create clean-chat-acc` *(Or any other name you like)*
+2. Create a new (empty) [`dokku`](https://dokku.com/) app using: `dokku apps:create clean-chat-acc` *(Or any other name you like)*
 
 **On your client PC:**
 1. Make sure you have [`git`](https://git-scm.com/) installed on your client PC.
