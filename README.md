@@ -131,10 +131,10 @@ git push clean-chat-acc master
 ```
 
 ### Native Installation
-1. Make sure you have **.NET Core 3.1** installed on your server:
-    - [Linux](https://docs.microsoft.com/da-dk/dotnet/core/install/linux-package-manager-ubuntu-1910)
-    - [Mac](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-3.1.3-macos-x64-installer)
-    - [Windows](https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-3.1.3-windows-x64-installer) *(Only if using `Portable`!)*
+1. Make sure you have **.NET 6.0** installed on your server:
+    - [Linux](https://learn.microsoft.com/dotnet/core/install/linux?WT.mc_id=dotnet-35129-website)
+    - [Mac](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.14-macos-x64-installer)
+    - [Windows](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.14-windows-x64-installer) *(Only if using `Portable`!)*
 2. [Download](#downloads) the latest **CleanChat AutoClearChannel `Portable` or `Windows`**
 3. Unzip the `.zip` package on your computer.
 4. Copy & rename the `config.json.sample` file to `config.json`.
@@ -146,20 +146,20 @@ git push clean-chat-acc master
 
 
 ### Downloads
-Latest version is: `v1.0.5.0`
+Latest version is: `v1.0.6.0`
 
-| Version        | Download Link                                                                                                        |
-| -------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Docker**     | [CleanChat-AutoClearChannel-Docker-Latest](https://github.com/Rikj000/CleanChat-AutoClearChannel-Docker/releases)    |
-| **Portable**   | [CleanChat-AutoClearChannel-v1.0.5.0-Portable-NetCore-3.1.zip](http://drive.alexandernorup.com/CleanChat/latest.zip) |
-| **Windows 64** | [CleanChat-AutoClearChannel-v1.0.5.0-Win-x64.zip](http://drive.alexandernorup.com/CleanChat/latest-WINDOWS.zip)      |
-| **Windows 32** | [CleanChat-AutoClearChannel-v1.0.5.0-Win-x86.zip](http://drive.alexandernorup.com/CleanChat/latest-WINDOWS-x86.zip)  |
+| Version        | Download Link                                                                                                       |
+| -------------- |---------------------------------------------------------------------------------------------------------------------|
+| **Docker**     | [CleanChat-AutoClearChannel-Docker-Latest](https://github.com/Rikj000/CleanChat-AutoClearChannel-Docker/releases)   |
+| **Portable**   | [CleanChat-AutoClearChannel-v1.0.6.0-Portable-DotNet-6.0.zip](http://drive.alexandernorup.com/CleanChat/latest.zip) |
+| **Windows 64** | [CleanChat-AutoClearChannel-v1.0.6.0-Win-x64.zip](http://drive.alexandernorup.com/CleanChat/latest-WINDOWS.zip)     |
+| **Windows 32** | [CleanChat-AutoClearChannel-v1.0.6.0-Win-x86.zip](http://drive.alexandernorup.com/CleanChat/latest-WINDOWS-x86.zip) |
 
-The **Portable build** runs on all systems, but **requires .NET Core 3.1**.
+The **Portable build** runs on all systems, but **requires .NET 6.0**.
 For native Linux users, you can download a free [CleanChat-Auto-Updater-Script.sh](https://pastebin.com/nZL0pvQP) that will keep the bot updated.   
 Download and save as `CleanChat-Auto-Updater-Script.sh`, and launch that when you run the server.
 
-The **Windows builds** obviously only runs on Windows, however they **don't require .NET Core 3.1**.   
+The **Windows builds** obviously only runs on Windows, however they **don't require .NET 6.0**.   
 The drawback is then that the file-size is a lot bigger.
 
 
