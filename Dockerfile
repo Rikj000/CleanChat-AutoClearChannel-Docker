@@ -1,5 +1,5 @@
-# Deriving the latest .NET Core 3.1 base image
-FROM mcr.microsoft.com/dotnet/runtime:3.1
+# Deriving the latest .NET 6.0 base image
+FROM mcr.microsoft.com/dotnet/runtime:6.0
 
 # Opt-out from the .NET diagnostic pipeline
 ENV DOTNET_EnableDiagnostics=0
